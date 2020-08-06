@@ -1,0 +1,26 @@
+<script type="text/javascript">
+ $(function (){   
+   navSlid();
+  });
+  //滑动导航
+  var navSlid = function(){ 
+   var nline = $('#navLine'); 
+   var lia = $('ul.slid li a'); 
+   //初始化滑块 
+   nline.css({ 
+    'width':lia.width(), 
+    'left' :parseInt(lia.position().left) 
+   }); 
+   $('ul.slid li a').mouseenter(function(){ 
+    //显示滑块 
+    if(nline.css('display') == 'none'){ 
+     nline.show(); 
+    }; 
+    //移动滑块 
+    nline.stop().animate({ 
+     width: $(this).width(), 
+     left: parseInt($(this).position().left) 
+    },300); 
+   }); 
+  }; 
+ </script>
