@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <meta charset="UTF-8">
+ <title>滑动导航</title>
+ </head>
+ <body>
+ <ul class="slid">
+  <li><a href="#" rel="external nofollow" rel="external nofollow" >滑动到岗</a></li>
+  <li><a href="#" rel="external nofollow" rel="external nofollow" >滑动到岗</a></li>
+  <span id="navLine"></span>
+ </ul>
+ <script type="text/JavaScript" src="js/jQuery-1.9.1.min.js"></script>
+ </body>
+</html>
