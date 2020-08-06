@@ -1,0 +1,51 @@
+<style type="text/css">
+ body,div,p{ 
+   margin:0; 
+   padding:0; 
+  }   
+  ul.slid{
+   display: block;   
+   position:fixed;
+   top: 10px; 
+   left:0px; 
+   right:0px;        
+   height:60px;
+   background: #f2f2f2;
+   overflow: height;  
+  }
+  ul.slid li{
+   display: inline-block;
+   width: 49%;
+   height: 40px;
+   margin-top: 10px;
+   float: left;
+   text-align: center;
+   overflow: hidden;
+  
+  }
+   ul.slid li:first-child{
+   border-right: 1px solid red;
+   }
+  ul.slid li a{
+   display: inline-block;    
+   width: 120px;       
+   text-decoration:none; 
+   height:37px;
+   line-height: 37px; 
+   color: #898989;   
+   overflow: hidden;
+  }
+  ul.slid li a:hover{
+   color: red;
+  }
+  #navLine{
+   height:2px; 
+   background-color:red; 
+   position:absolute;    
+   bottom:7px; 
+   width:0px; 
+   left:0px; 
+   display:none; 
+   overflow:hidden;
+  }
+ </style>
